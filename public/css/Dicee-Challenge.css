@@ -19,12 +19,12 @@ h1 {
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: #ffffff;
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
+  color: #ffffff;
   font-family: 'Indie Flower', cursive;
 }
 
@@ -48,11 +48,16 @@ footer {
 }
 button{
   width: 100%;
-  background-color: #232931;
+  background-color: #0073ff;
   border: none;
   color: aliceblue;
   cursor: pointer;
+  border-radius: 10px;
 }
-button:active{
+button:hover{
+  background-color: #1462c2;
+}
+button:focus{
   border: none;
+  outline: none;
 }
