@@ -114,7 +114,7 @@
           "Game Over. Press 'A' key to start again";
         score.innerText = "Current Highscore: "+ (highscore-1);
         document.body.appendChild(score);
-        let error1 = new Audio('sounds/wrong.mp3')
+        let error1 = new Audio('/audio/Simon-Game-Audio/wrong.mp3')
         error1.play()
         document.querySelector('body').classList.add('game-over')
         setTimeout(function () {

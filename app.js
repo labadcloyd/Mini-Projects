@@ -19,4 +19,6 @@ app.get('/projects/dice-roller',(req,res)=>{
 app.get('/projects/drum-kit',(req,res)=>{
     res.render('projects/drum-kit.ejs');
 })
-
+app.get('/projects/simon-game',(req,res)=>{
+    res.render('projects/simon-game.ejs');
+})
