@@ -13,7 +13,7 @@ app.listen(3000, ()=>{
     console.log('listening on port 3000')
 })
 
-app.get('/projects/Dicee-Challenge',(req,res)=>{
+app.get('/projects/dice-roller',(req,res)=>{
     res.render('projects/Dicee-Challenge/dicee.ejs');
 })
 
