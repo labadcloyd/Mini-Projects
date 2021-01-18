@@ -14,7 +14,9 @@ app.listen(3000, ()=>{
 })
 
 app.get('/projects/dice-roller',(req,res)=>{
-    res.render('projects/Dicee-Challenge/dicee.ejs');
+    res.render('projects/dice-roller.ejs');
 })
-
+app.get('/projects/drum-kit',(req,res)=>{
+    res.render('projects/drum-kit.ejs');
+})
 
