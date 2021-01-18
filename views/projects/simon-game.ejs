@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Simon</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/css/Simon-Game.css">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 
@@ -65,7 +65,7 @@
     function nextSequence() {
       score.remove();
       let randomChosenColor = buttonColors[Math.floor(Math.random() * 4)]
-      let sound1 = new Audio('sounds/' + randomChosenColor + '.mp3')
+      let sound1 = new Audio('/audio/Simon-Game-Audio/' + randomChosenColor + '.mp3')
       sound1.play()
       gamePattern.push(randomChosenColor)
       document.querySelector('h1').innerText = 'Level ' + level
@@ -86,7 +86,7 @@
       let userChosenColor = this.getAttribute('id')
       userClickedPattern.push(userChosenColor)
       //SOUND
-      let sound1 = new Audio('sounds/' + userChosenColor + '.mp3')
+      let sound1 = new Audio('/audio/Simon-Game-Audio/' + userChosenColor + '.mp3')
       sound1.play()
       //STYLE
       document.querySelector('#' + userChosenColor).classList.add('pressed')
