@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Simon</title>
+  <title>Simon Game</title>
   <link rel="stylesheet" href="/css/Simon-Game.css">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
@@ -112,7 +112,7 @@
       else{
         document.querySelector('h1').innerText =
           "Game Over. Press 'A' key to start again";
-        score.innerText = "Current Highscore: "+ (highscore-1);
+        score.innerText = "Highscore: "+ (highscore-1);
         document.body.appendChild(score);
         let error1 = new Audio('/audio/Simon-Game-Audio/wrong.mp3')
         error1.play()
