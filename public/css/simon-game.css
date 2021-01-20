@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+html{
+  margin: 0;
+}
 body {
   text-align: center;
   background-color: #011F3F;
@@ -10,6 +14,19 @@ body {
   color: #FEF2BF;
 }
 
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-self: flex-end;
+}
+.footer-logo{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
 h2 {
   font-family: 'Press Start 2P', cursive;
   font-size: 1rem;
