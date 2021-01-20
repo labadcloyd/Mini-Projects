@@ -22,3 +22,6 @@ app.get('/projects/drum-kit',(req,res)=>{
 app.get('/projects/simon-game',(req,res)=>{
     res.render('projects/simon-game.ejs');
 })
+app.get('/', (req,res)=>{
+    res.render('index.ejs')
+})
