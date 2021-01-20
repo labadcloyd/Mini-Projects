@@ -65,6 +65,8 @@ footer{
     color: #bebebe;
 }
 .pic-thumbnail{
+    box-sizing: border-box;
+    overflow: hidden;
     width: 100%;
     margin: 0;
     padding:0;
@@ -72,12 +74,10 @@ footer{
     background-position: center;
     background-size: cover;
     transition: transform 0.4s;
-    box-sizing: border-box;
-    overflow: hidden;
 }
 .pic-thumbnail:hover{
-    transform: scale(1.1);
     overflow: hidden;
+    transform: scale(1.2);
 }
 #dice-roller{
     background-image: url('images/dice-roller.png');
