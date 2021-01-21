@@ -52,7 +52,7 @@ footer{
     box-sizing: border-box;
 }
 .description{   
-    margin: 20px;
+    padding: 20px;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -67,17 +67,20 @@ footer{
 .pic-thumbnail{
     box-sizing: border-box;
     overflow: hidden;
+    transition: transform 0.4s;
+}
+.pic-thumbnail:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+}
+.thumbnail{
     width: 100%;
     margin: 0;
     padding:0;
     height: 240px;
     background-position: center;
     background-size: cover;
-    transition: transform 0.4s;
-}
-.pic-thumbnail:hover{
     overflow: hidden;
-    transform: scale(1.2);
 }
 #dice-roller{
     background-image: url('images/dice-roller.png');
